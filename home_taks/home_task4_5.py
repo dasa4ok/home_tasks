@@ -5,8 +5,5 @@ for i in a:
     if i % 2 == 0 and click > 0:
         click -= 1
         calc += i
-    else:
-        pass
-
 print(calc)
 
