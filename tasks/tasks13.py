@@ -2,7 +2,7 @@
 def finder_of_same(values1, values2):
     counter = []
     for value1 in values1:
-        if values2.count(value1) >= 1:
+        if values2 in value1:
             counter.append(value1)
     return counter
 
