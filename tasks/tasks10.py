@@ -1,6 +1,6 @@
 #10. В одномерном списке удалить все четные элементы и оставить только нечетные.
 def remover_of_even(values):
-    for value in values[0:]:
+    for value in values[:]:
         if value % 2 == 0:
             quantity = values.count(value)
             for elements in range(quantity):
